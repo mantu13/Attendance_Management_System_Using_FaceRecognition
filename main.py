@@ -63,7 +63,7 @@ def manually_fill():
         try:
             global cursor
             connection = pymysql.connect(
-                host='localhost', user='root', password='', db='manually_fill_attendance')
+                host='localhost', user='root', password='565656ma', db='manually_fill_attendance')
             cursor = connection.cursor()
         except Exception as e:
             print(e)
